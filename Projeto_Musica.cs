@@ -1,21 +1,31 @@
-class Musica
+class Song
 {
-    public string nome;
-    public string artista;
-    public int duracao;
-    public bool disponivel;
+    //Property that stores the name of the song
+    public string Name {  get; set; }
 
-    public void ExibirFichaTecnica() 
+    //Property that stores the artist of the song
+    public string Artist { get; set; }
+    
+    //Property that stores the duration of the song
+    public int Duration { get; set; }
+    
+    //Property that stores the availability of the song
+    public bool Available { get; set; }
+
+    //Property that stores a short description of the song
+    public string ShortDescription => $"The Song {Name} belongs to {Artist}.";
+
+    public void DisplayTechnicalSheet() 
     {
-        Console.WriteLine($"Nome: {nome}");
-        Console.WriteLine($"Artista: {artista}");
-        Console.WriteLine($"Duração: {duracao}");
-        if (disponivel)
+        Console.WriteLine($"Name: {Name}");
+        Console.WriteLine($"Artist: {Artist}");
+        Console.WriteLine($"Duration: {Duration}");
+        if (Available)
         {
-            Console.WriteLine("Disponível no Plano Atual.");
+            Console.WriteLine("Available on the Current Subscription.");
         }
         else {
-            Console.WriteLine("Indisponível no Plan Atual.");
+            Console.WriteLine("Unavailable on the Current Subscription.");
         }
         Console.WriteLine();
     }
