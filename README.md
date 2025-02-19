@@ -1,2 +1,2 @@
-# Alura_C_Sharp_OO Parte 01: Classe e Método no C#
-A primeira parte dessa sequência de aulas foca na apresentação de Classes e Métodos em C#.
+# Alura_C_Sharp_OO Parte 02: Métodos de Acesso e Propriedades
+A segunda parte dessa sequência de aulas foca no aprofundamento dos conceitos de Orientação a Objetos, com a manipulação de Métodos de Acesso e Propriedades.
