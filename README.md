@@ -1,2 +1,2 @@
-# Alura_C_Sharp_OO
-O repositório com exercícios e programas utilizados no estudo de C# focados em Orientação a Objetos.
+# Alura_C_Sharp_OO Parte 01: Classe e Método no C#
+A primeira parte dessa sequência de aulas foca na apresentação de Classes e Métodos em C#.
