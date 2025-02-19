@@ -1,14 +1,15 @@
-Musica musica1 = new Musica();
-musica1.nome = "Getsêmani";
-musica1.artista = "Leonardo Gonçalves";
-musica1.duracao = 269;
-musica1.disponivel = true;
+Song musica1 = new Song();
+musica1.Name = "Getsêmani";
+musica1.Artist = "Leonardo Gonçalves";
+musica1.Duration = 269;
+musica1.Available = true;
 
-Musica musica2 = new Musica();
-musica2.nome = "SPOT!";
-musica2.artista = "ZICO, JENNIE";
-musica2.duracao = 167;
-musica2.disponivel = false;
+Song musica2 = new Song();
+musica2.Name = "SPOT!";
+musica2.Artist = "ZICO, JENNIE";
+musica2.Duration = 167;
+musica2.Available = false;
 
-musica1.ExibirFichaTecnica();
-musica2.ExibirFichaTecnica();
+Console.WriteLine(musica1.ShortDescription);
+musica1.DisplayTechnicalSheet();
+musica2.DisplayTechnicalSheet();
