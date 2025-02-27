@@ -1,2 +1,2 @@
-# Alura_C_Sharp_OO Parte 03: Integrando Classes e Definindo Relacionamentos
-A terceira parte dessa sequência de aulas foca no aprofundamento da Integração de Classes, e nas formas em que as Classes podem se relacionar, como por exemplo, com atributos de uma Classe advindos de outra.
+# Alura_C_Sharp_OO Parte 04: Construtor de Bandas
+A quarta parte dessa sequência de aulas foca no aprofundamento e utilização de Construtores, que resultou na otmização de vários trechos do código por meio da aplicação dos conceitos de Construtores em cada uma das Classes do projeto.
