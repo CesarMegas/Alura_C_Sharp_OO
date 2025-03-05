@@ -100,3 +100,34 @@ linkinParkAlbum.DisplayAlbumSongs();
 
 //DISPLAYING BAND DISCOGRAPHY
 linkinPark.DisplayDiscography();
+
+//********************************
+Console.WriteLine();
+//CREATING PODCASTS
+//Inteligência LTDA
+Podcast inteligenciaLtda = new Podcast("Inteligência LTDA. Podcast", "Rogério Vilela");
+
+//CREATING EPISODES
+//Ep.1435
+Episode n1435 = new Episode("RELATOS REAIS DE APARIÇÕES E ENTIDADES: DANI PIRES, ANA E MILICI - Inteligência Ltda. Podcast #1435", 1435, 212);
+
+//CREATING GUESTS
+//Ep. 1435
+Guest daniPires = new Guest("Daniel Pires", "Terror Youtuber");
+Guest anaPaula = new Guest("Ana Paula Fornazari", "Terror Youtuber");
+Guest lucianoMilici = new Guest("Luciano Milici", "Writer, Terror Youtuer");
+
+//ADDING GUESTS
+//Ep. 1435
+n1435.AddGuests(daniPires);
+n1435.AddGuests(anaPaula);
+n1435.AddGuests(lucianoMilici);
+
+//ADDING EPISODES
+inteligenciaLtda.AddEpisode(n1435);
+
+//DISPLAYING EP. DESCRIPTION
+Console.WriteLine(n1435.Description);
+
+//DISPLAYING PODCAST INFO
+inteligenciaLtda.DisplayInformation();
